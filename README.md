@@ -1,18 +1,50 @@
-**Welcome to Neutra RMS, a latest project of Neutra AI.
-**
+<div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
+   <a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a>
+</div>
 
-This webapp is a Record Management System (RMS) which will create & curate different types of records, e.g. 
-Invoice, Bill, Payroll, Project, Customer.
+<div style="display: flex; justify-content: center; align-items: center; gap: 8px">
+    <b style="font-size: 18px; text-align: center;"> 
+        Visit Live Site at :
+    </b> 
+    <span> 
+        <a href="https://www.neutrarms.kabir.trade" style="font-size: 16px;">Neutra RMS</a>
+    </span> 
+</div>
 
-I, Ridoan Kabir, is the sole developer behind this project.
+<div style="color: red; text-align: center;">*(This project is still under development)*</div>
 
-It was built on top of PHP & its framework 'Laravel 11' for back-end.
+## About This Project
 
-For front end, TailwindCSS framework & Flowbite UI library were used.
+Neutra RMS (Record Management System) is a centralized accounting record tracking system. It's a lightweight branch-work from my another solo project, named "VENDORA ERP" which is also under-development.
 
-For database, I've used MySQL.
+Here, you can:
 
-For more control, no built-in authentication packages were used. Only hand-written authentication.
+- Create **Parties**
+- Assign **Projects** on parties
+- Create separate **invoice, bill, expense, transfer**, etc. for each project. 
+- Receive due amount & overdue bill **alerts**
+- Get total accounting **summary**
+- Brief **Analytics**
+- Dynamic UI **color-change** for varied sections
+- **Centralized user management** for limited access & better provacy
+- Lightweight **attendance management** for small team (under construction)
+- **Auto filter** exployee & employers to attendance (under construction)
 
-Thought this webapp is still in its Alpha version, we are still able to create & curate all kinds of records.
-The only objectives left before Beta version is released are to beautify the dashboard & display some graphs.
+## What were used to build this project
+
+- **[Laravel v-12](https://laravel.com/)** : A powerful PHP framework.
+- **[Flowbite](https://flowbite.com/)** : A modern UI component library based on Tailwind CSS.
+- **[MySQL](https://www.mysql.com/)** : A very popular tabular database system of SQL.
+- **[Authentication](https://laravel.com/docs/12.x/authentication#authenticating-users)** : Session-based user authentication system  powered by Laravel.
+- **[Country Package](https://github.com/nnjeim/world)** : Nnjeim-World package to add all the countries and their currencies, languages, timezones as well as L1, L2, L3 locations (not L4 or city/towns to keep database smaller).
+
+
+## Contributor
+
+The solo contributor of this project is : **[Ridoan Kabir](https://laravel.com/docs/contributions)**.
+
+See his other works: **[Github](https://github.com/ridoan777)**
+
+### <span style="color:#cc4444;">"The developer would really appreciate it if you fork his projects instead of cloning 😊"</span>
+<br>
+<br>
