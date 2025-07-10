@@ -41,7 +41,7 @@ Here, you can:
 
 ## Contributor
 
-The solo contributor of this project is : **[Ridoan Kabir]([https://laravel.com/docs/contributions](https://www.linkedin.com/in/ridoankabir/))**.
+The solo contributor of this project is : **[Ridoan Kabir]([https://laravel.com/docs/contributions](https://www.linkedin.com/in/ridoankabir/)**.
 
 See his other works: **[Github](https://github.com/ridoan777)**
 
