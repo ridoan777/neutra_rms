@@ -1,0 +1,156 @@
+/*-------------------------------------------------------------------*/
+/* tab = &nbsp; 
+taka = &#2547;
+logo = {{ asset('asset/images/icons') }}/neutra_logo.png
+*/
+/*-------------------------------------------------------------------*/
+*{
+    font-family: "Urbanist", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+/*-------------------------------------------------------------------*/
+.ugrid-16 {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr); /* Creates 16 equal columns */
+    gap: 0.125rem; 
+    width: 100% !important;
+}
+
+.u-colspan-1 { grid-column: span 1; } /* grid-12 = 8.33%, ugrid-16 = 6.25% */
+.u-colspan-2 { grid-column: span 2; } /* grid-12 = 16.66%, ugrid-16 = 12.5% */
+.u-colspan-3 { grid-column: span 3; } /* grid-12 = 25%, ugrid-16 = 18.75% */
+.u-colspan-4 { grid-column: span 4; } /* grid-12 = 33.33%, ugrid-16 = 25% */
+.u-colspan-5 { grid-column: span 5; } /* grid-12 = 41.66%, ugrid-16 = 31.25% */
+.u-colspan-6 { grid-column: span 6; } /* grid-12 = 50%, ugrid-16 = 37.5% */
+.u-colspan-7 { grid-column: span 7; } /* grid-12 = 58.33%, ugrid-16 = 43.75% */
+.u-colspan-8 { grid-column: span 8; } /* grid-12 = 66.66%, ugrid-16 = 50% */
+.u-colspan-9 { grid-column: span 9; } /* grid-12 = 75%, ugrid-16 = 56.25% */
+.u-colspan-10 { grid-column: span 10; } /* grid-12 = 83.33%, ugrid-16 = 62.5% */
+.u-colspan-11 { grid-column: span 11; } /* grid-12 = 91.66%, ugrid-16 = 68.75% */
+.u-colspan-12 { grid-column: span 12; } /* ugrid-16 = 75% */
+.u-colspan-13 { grid-column: span 13; } /* grid-12 = N/A, ugrid-16 = 81.25% */
+.u-colspan-14 { grid-column: span 14; } /* grid-12 = N/A, ugrid-16 = 93.75% */
+.u-colspan-16 { grid-column: span 16; } /* grid-12 = 100%, ugrid-16 = 100% */
+
+/*-------------------------------------------------------------------*/
+.h-1px{ height: 1px; }
+.w-1px{ width: 1px; }
+/*-------------------------------------------------------------------*/
+h1{ 
+    font-size: 48px;
+    line-height: 56px;
+    margin: 6px 0px;
+    font-weight: 700;
+}
+h2{ 
+    font-size: 42px;
+    line-height: 42px;
+    margin: 5px 0px;
+    font-weight: 600;
+}
+h3{ 
+    font-size: 36px;
+    line-height: 36px;
+    margin: 4px 0px;
+    font-weight: 500;
+}
+h4{ 
+    font-size: 30px;
+    line-height: 30px;
+    margin: 3px 0px;
+    font-weight: 500;
+}
+h5{ 
+    font-size: 24px;
+    line-height: 24px;
+    margin: 3px 0px;
+    font-weight: 500;
+}
+h6{ 
+    font-size: 18px;
+    line-height: 18px;
+    margin: 3px 0px;
+    font-weight: 500;
+}
+/*-------------------------------------------------------------------*/
+.bg-invoice-navy{
+    background-color: #132144;
+}
+.text-invoice-navy{
+    color: #132144;
+}
+/*-------------------------------------------------------------------*/
+/* component button */
+.invoice-button{ 
+    margin: 0px 4px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    /* background-color: rgb(s17 24 39); */
+    text-align: center;
+    font-size: 14px; /* 0.875rem */
+    font-weight: 500;
+    line-height: 20px; /* 1.25rem */
+
+}.invoice-button:hover{
+    /* background-color: rgb(30 64 175); */
+}.invoice-button:focus{
+    box-shadow: 0 0 0 4px rgb(147 197 253);
+    outline: none;
+}
+
+/* component input */
+.invoice-input{
+    width: 100%;
+    padding: 12px 10px;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+    border: 1px solid rgb(201, 201, 202) !important;
+    border-radius: 8px !important;
+    color: black;
+    background-color: rgb(249 250 251/1);
+    font-size: 14px;
+    line-height: 16px;
+    display: block;
+}
+.invoice-input:focus{
+    box-shadow: 0 0 0 1px #2563EB;
+    border: 10px solid #2563EB;
+}
+
+.invoice-input-none{
+    /* width: 100%; */
+    padding: 4px 2px;
+    box-shadow: none;
+    border: 0px !important;
+    border-radius: none !important;
+    background-color: rgba(249, 250, 251, 0);
+    font-size: 14px;
+    line-height: 14px;
+    display: block;
+}
+.invoice-input:focus{
+    box-shadow: 0 0 0 1px #2564eb00;
+    border: 0px solid #2564eb00;
+}
+
+/*-------------------------------------------------------------------*/
+.modifyModal{
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 16px;
+    max-height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+/*-------------------------------------------------------------------*/
