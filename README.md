@@ -11,7 +11,7 @@
     </span> 
 </div>
 
-<div style="color: red; text-align: center;">*(This project is still under development)*</div>
+<em style="color: red; text-align: center;">(This project is still under development)</em>
 
 ## About This Project
 
